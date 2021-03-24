@@ -259,6 +259,7 @@ namespace Memorama
             this.cyborg2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.cyborg2_cover.TabIndex = 15;
             this.cyborg2_cover.TabStop = false;
+            this.cyborg2_cover.Click += new System.EventHandler(this.cyborg2_cover_Click);
             // 
             // wonderwoman1_cover
             // 
@@ -270,6 +271,7 @@ namespace Memorama
             this.wonderwoman1_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.wonderwoman1_cover.TabIndex = 16;
             this.wonderwoman1_cover.TabStop = false;
+            this.wonderwoman1_cover.Click += new System.EventHandler(this.wonderwoman1_cover_Click);
             // 
             // wonderwoman2_cover
             // 
@@ -281,6 +283,7 @@ namespace Memorama
             this.wonderwoman2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.wonderwoman2_cover.TabIndex = 17;
             this.wonderwoman2_cover.TabStop = false;
+            this.wonderwoman2_cover.Click += new System.EventHandler(this.wonderwoman2_cover_Click);
             // 
             // batman2_cover
             // 
@@ -292,6 +295,7 @@ namespace Memorama
             this.batman2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.batman2_cover.TabIndex = 18;
             this.batman2_cover.TabStop = false;
+            this.batman2_cover.Click += new System.EventHandler(this.batman2_cover_Click);
             // 
             // batman1_cover
             // 
@@ -303,6 +307,7 @@ namespace Memorama
             this.batman1_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.batman1_cover.TabIndex = 19;
             this.batman1_cover.TabStop = false;
+            this.batman1_cover.Click += new System.EventHandler(this.batman1_cover_Click);
             // 
             // superman1_cover
             // 
@@ -314,6 +319,7 @@ namespace Memorama
             this.superman1_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.superman1_cover.TabIndex = 20;
             this.superman1_cover.TabStop = false;
+            this.superman1_cover.Click += new System.EventHandler(this.superman1_cover_Click);
             // 
             // superman2_cover
             // 
@@ -325,6 +331,7 @@ namespace Memorama
             this.superman2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.superman2_cover.TabIndex = 21;
             this.superman2_cover.TabStop = false;
+            this.superman2_cover.Click += new System.EventHandler(this.superman2_cover_Click);
             // 
             // aquaman1_cover
             // 
@@ -336,6 +343,7 @@ namespace Memorama
             this.aquaman1_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.aquaman1_cover.TabIndex = 22;
             this.aquaman1_cover.TabStop = false;
+            this.aquaman1_cover.Click += new System.EventHandler(this.aquaman1_cover_Click);
             // 
             // aquaman2_cover
             // 
@@ -347,6 +355,7 @@ namespace Memorama
             this.aquaman2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.aquaman2_cover.TabIndex = 23;
             this.aquaman2_cover.TabStop = false;
+            this.aquaman2_cover.Click += new System.EventHandler(this.aquaman2_cover_Click);
             // 
             // flash1_cover
             // 
@@ -358,6 +367,7 @@ namespace Memorama
             this.flash1_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.flash1_cover.TabIndex = 24;
             this.flash1_cover.TabStop = false;
+            this.flash1_cover.Click += new System.EventHandler(this.flash1_cover_Click);
             // 
             // flash2_cover
             // 
@@ -369,6 +379,7 @@ namespace Memorama
             this.flash2_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.flash2_cover.TabIndex = 25;
             this.flash2_cover.TabStop = false;
+            this.flash2_cover.Click += new System.EventHandler(this.flash2_cover_Click);
             // 
             // Memorama
             // 
