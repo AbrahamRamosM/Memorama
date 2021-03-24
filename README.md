@@ -1,3 +1,2 @@
 # Memorama
-Juego de memorama
-Tematica de Justice League
+Juego de memorama (Tematica de Justice League)
