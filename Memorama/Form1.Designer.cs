@@ -56,6 +56,10 @@ namespace Memorama
             this.aquaman2_cover = new System.Windows.Forms.PictureBox();
             this.flash1_cover = new System.Windows.Forms.PictureBox();
             this.flash2_cover = new System.Windows.Forms.PictureBox();
+            this.intentos = new System.Windows.Forms.Label();
+            this.intentos_num = new System.Windows.Forms.Label();
+            this.estatus = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.cyborg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aquaman2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.batman1)).BeginInit();
@@ -381,12 +385,62 @@ namespace Memorama
             this.flash2_cover.TabStop = false;
             this.flash2_cover.Click += new System.EventHandler(this.flash2_cover_Click);
             // 
+            // intentos
+            // 
+            this.intentos.AutoSize = true;
+            this.intentos.Font = new System.Drawing.Font("Roboto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.intentos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.intentos.Location = new System.Drawing.Point(413, 29);
+            this.intentos.Name = "intentos";
+            this.intentos.Size = new System.Drawing.Size(233, 42);
+            this.intentos.TabIndex = 27;
+            this.intentos.Text = "Movimientos:";
+            // 
+            // intentos_num
+            // 
+            this.intentos_num.AutoSize = true;
+            this.intentos_num.Font = new System.Drawing.Font("Roboto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.intentos_num.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.intentos_num.Location = new System.Drawing.Point(675, 29);
+            this.intentos_num.Name = "intentos_num";
+            this.intentos_num.Size = new System.Drawing.Size(38, 42);
+            this.intentos_num.TabIndex = 28;
+            this.intentos_num.Text = "0";
+            // 
+            // estatus
+            // 
+            this.estatus.AutoSize = true;
+            this.estatus.Font = new System.Drawing.Font("Roboto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estatus.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.estatus.Location = new System.Drawing.Point(323, 388);
+            this.estatus.Name = "estatus";
+            this.estatus.Size = new System.Drawing.Size(0, 42);
+            this.estatus.TabIndex = 29;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(278, 405);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(243, 23);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "Reiniciar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Memorama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.estatus);
+            this.Controls.Add(this.intentos_num);
+            this.Controls.Add(this.intentos);
             this.Controls.Add(this.flash2_cover);
             this.Controls.Add(this.flash1_cover);
             this.Controls.Add(this.aquaman2_cover);
@@ -415,6 +469,7 @@ namespace Memorama
             this.Controls.Add(this.label1);
             this.Name = "Memorama";
             this.Text = "Memorama";
+            this.Load += new System.EventHandler(this.Memorama_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cyborg1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aquaman2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.batman1)).EndInit();
@@ -473,6 +528,10 @@ namespace Memorama
         private System.Windows.Forms.PictureBox aquaman2_cover;
         private System.Windows.Forms.PictureBox flash1_cover;
         private System.Windows.Forms.PictureBox flash2_cover;
+        private System.Windows.Forms.Label intentos;
+        private System.Windows.Forms.Label intentos_num;
+        private System.Windows.Forms.Label estatus;
+        private System.Windows.Forms.Button button1;
     }
 }
 
